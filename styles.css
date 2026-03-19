@@ -50,12 +50,34 @@ nav a {
   color: #fff;
   border-color: #1e89c9;
 }
+.logo-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 16px 0 8px;
+}
+.logo-card {
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid #dce8f2;
+  border-radius: 14px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+}
+.logo-card img {
+  max-width: 100%;
+  max-height: 110px;
+  object-fit: contain;
+}
 .hero {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 22px;
   align-items: center;
-  padding: 48px 0 18px;
+  padding: 28px 0 18px;
 }
 .eyebrow {
   letter-spacing: 0.14em;
@@ -186,6 +208,7 @@ h1 {
   font-size: 0.95rem;
 }
 @media (max-width: 900px) {
+  .logo-strip,
   .hero, .grid, .split {
     grid-template-columns: 1fr;
   }
