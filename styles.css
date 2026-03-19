@@ -115,6 +115,16 @@ h1 {
   max-width: 650px;
   color: #2a4e68;
 }
+.gesy-note {
+  margin-top: 10px;
+  max-width: 760px;
+  background: #eef7ff;
+  border: 1px solid #cfe6fb;
+  color: #11456b;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 600;
+}
 .cta-row {
   margin-top: 20px;
   display: flex;
