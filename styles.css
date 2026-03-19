@@ -25,6 +25,20 @@ body {
   align-items: center;
   padding: 14px 0;
 }
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.top-logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #dce8f2;
+  padding: 4px;
+}
 .brand {
   color: #11456b;
   text-decoration: none;
@@ -225,6 +239,10 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+  }
+  .brand-row {
+    width: 100%;
+    justify-content: space-between;
   }
   nav {
     width: 100%;
