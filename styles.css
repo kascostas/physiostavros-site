@@ -39,6 +39,12 @@ body {
   border: 1px solid #dce8f2;
   padding: 4px;
 }
+.top-logo.clinic-logo {
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+}
 .brand {
   color: #11456b;
   text-decoration: none;
